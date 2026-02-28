@@ -23,7 +23,7 @@ const About = () => {
         {/* TEXT */}
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p>
-          Forever was born out of a passion for innovation and a desire to revolutionize the way
+          shopsmart was born out of a passion for innovation and a desire to revolutionize the way
 people shop online. Our journey began with a simple idea: to provide a platform where
 customers can easily discover, explore, and purchase a wide range of products from the
 comfort of their homes.

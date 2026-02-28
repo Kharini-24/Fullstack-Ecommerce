@@ -36,11 +36,11 @@ const Contact = () => {
 
           <p className="text-gray-500">
             Tel: (415) 555-0132 <br />
-            Email: admin@forever.co
+            Email: admin@shopsmart.co
           </p>
 
           <p className="font-semibold text-xl text-gray-700">
-            Careers at Forever
+            Careers at shopsmart
           </p>
 
           <p className="text-gray-500">

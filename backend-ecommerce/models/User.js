@@ -17,9 +17,14 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    isAdmin: {
+      type: Boolean,
+      default: true,
+    }
   },
   { timestamps: true }
 );
+
 
 
 userSchema.pre("save", async function (next) {

@@ -11,7 +11,7 @@ const Footer = () => {
         
         {/* Logo & Description */}
         <div>
-          <img src={assets.logo} className="mb-5 w-32" alt="Logo" />
+          <img src={assets.shopsmart} className="mb-5 w-51" alt="Logo" />
           <p className="w-full md:w-2/3 text-gray-600">
           Forever is your one-stop destination for quality products,
             seamless shopping, and exceptional service.

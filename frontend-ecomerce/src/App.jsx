@@ -15,6 +15,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import Profile from "./pages/Profile";
+import AdminPage from "./pages/AdminPage";
+
 
 
 
@@ -41,6 +43,8 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="/about" element={<About />} />
           <Route path="/collection" element={<Collection />} />
+          
+          <Route path="/admin" element={<AdminPage />} />
           
 
           {/* fallback to home (or use a NotFound component) */}

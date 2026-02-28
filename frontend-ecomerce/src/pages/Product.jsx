@@ -72,7 +72,7 @@ const Product = () => {
           </div>
 
           <p className="mt-5 text-3xl font-medium">
-            {currency}${productData.price}
+            {currency}{productData.price}
           </p>
 
           <p className="mt-5 text-gray-600 md:w-4/5">
@@ -131,11 +131,11 @@ const Product = () => {
 
         <div className="border px-6 py-6 flex flex-col gap-4">
           <p>
-            An e-commerce website is an online platform that facilitates
+            shopsmart website is an online platform that facilitates
             the buying and selling of products or services over the internet.
           </p>
           <p>
-            E-commerce websites typically display products or services along
+            shopsmart websites typically display products or services along
             with descriptions, prices, and payment options.
           </p>
         </div>

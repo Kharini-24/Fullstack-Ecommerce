@@ -86,7 +86,19 @@ export const getUserProfile = async (req, res) => {
       _id: req.user._id,
       name: req.user.name,
       email: req.user.email,
+      isAdmin: req.user.isAdmin,
     });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+// @desc    Get all users
+// @route   GET /api/users
+// @access  Admin
+export const getAllUsers = async (req, res) => {
+  try {
+    const users = await User.find({}).select("-password");
+    res.json(users);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }

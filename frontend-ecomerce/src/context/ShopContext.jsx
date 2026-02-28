@@ -1,14 +1,9 @@
 import { useState, useEffect, createContext, useContext } from "react";
-
-
 import { useNavigate } from "react-router-dom";
 
 
 // 1. Create Context
 export const ShopContext = createContext();
-
-
-
 
 // 2. Create Provider Component
 const ShopContextProvider = (props) => {
