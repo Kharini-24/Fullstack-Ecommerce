@@ -21,9 +21,6 @@ A full-stack eCommerce web application built using the **MERN Stack** (MongoDB, 
 
 
 
-<img width="1908" height="918" alt="Screenshot 2026-08-03 192744" src="https://github.com/user-attachments/assets/fe35eff9-5370-493b-89bd-9c76494b8a6e" />
-
-
 ### 🛠️ Admin Features
 
 * Secure admin-only access
