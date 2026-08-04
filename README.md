@@ -19,12 +19,9 @@ A full-stack eCommerce web application built using the **MERN Stack** (MongoDB, 
 * Newsletter subscription
 * Dark/Light mode
 
-##Screenshots
-<img width="1907" height="892" alt="Screenshot 2026-07-28 185809" src="https://github.com/user-attachments/assets/2ed4cd13-7cca-4d76-8fdb-1c62ebf27a8d" />
+
+
 <img width="1908" height="918" alt="Screenshot 2026-08-03 192744" src="https://github.com/user-attachments/assets/fe35eff9-5370-493b-89bd-9c76494b8a6e" />
-<img width="1906" height="955" alt="Screenshot 2026-07-28 185750" src="https://github.com/user-attachments/assets/a8c1102f-cb05-4c37-b93a-31c10fc3a223" />
-<img width="1913" height="910" alt="Screenshot 2026-07-28 185732" src="https://github.com/user-attachments/assets/d1533b53-2b60-43b3-a994-07cae20ae9e2" />
-<img width="1902" height="910" alt="Screenshot 2026-07-28 185700" src="https://github.com/user-attachments/assets/ae59e328-7459-46ae-9563-9a39179d838e" />
 
 
 ### 🛠️ Admin Features
@@ -80,15 +77,20 @@ A full-stack eCommerce web application built using the **MERN Stack** (MongoDB, 
 
 ## 📸 Screenshots
 
-Screenshots of the application will be added here.
 
 * Home Page
+<img width="1902" height="910" alt="Screenshot 2026-07-28 185700" src="https://github.com/user-attachments/assets/ae59e328-7459-46ae-9563-9a39179d838e" />
+
 * Product Details
+<img width="1913" height="910" alt="Screenshot 2026-07-28 185732" src="https://github.com/user-attachments/assets/d1533b53-2b60-43b3-a994-07cae20ae9e2" />
+<img width="1906" height="955" alt="Screenshot 2026-07-28 185750" src="https://github.com/user-attachments/assets/a8c1102f-cb05-4c37-b93a-31c10fc3a223" />
+
+
 * Cart
-* Checkout
-* My Orders
-* Profile
-* Admin Dashboard
+<img width="1907" height="892" alt="Screenshot 2026-07-28 185809" src="https://github.com/user-attachments/assets/2ed4cd13-7cca-4d76-8fdb-1c62ebf27a8d" />
+* login
+<img width="1908" height="918" alt="Screenshot 2026-08-03 192744" src="https://github.com/user-attachments/assets/fe35eff9-5370-493b-89bd-9c76494b8a6e" />
+
 
 ---
 
@@ -97,7 +99,7 @@ Screenshots of the application will be added here.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repository>.git
+git clone https://github.com/<Kharini-24>/<Fullstack-Ecommerce>.git
 ```
 
 ### Install Frontend
@@ -123,8 +125,8 @@ npm run dev
 Create a `.env` file inside the backend directory:
 
 ```env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+MONGO_URI=mongodb://localhost:27017/ecommerce_new
+JWT_SECRET=mysuperkey123
 PORT=5000
 ```
 
